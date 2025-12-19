@@ -1,0 +1,166 @@
+.brand-size{
+    font-family: 'Times New Roman';
+    font-size: 100%;
+    font-weight: bold;
+}
+
+.background{
+    background-color: rgb(56, 175, 255);
+}
+.home-text{
+    color: gray;
+    font-family: "sans-serif";
+    font-size: 1.15rem;
+    opacity: 0.8;
+    line-height: 1.6;
+}
+.home-heading{
+    font-family: "serif";
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: black;
+}
+.nav-text{
+    font-weight: bold;
+    font-size: 90%;
+    color: black;
+}
+.about-main{
+    font-family: 'Times New Roman';
+    font-size: 2.25rem;
+    font-weight: 800;
+}
+.sticky {
+    position: sticky;
+}
+.about-sub-heading{
+    font-family: 'Roboto';
+    font-size: 95%;
+    color: black;
+    opacity: 1.2;
+    font-weight: bold;
+    margin-bottom: 15px;
+    line-height: 1.4;
+}
+.about-sub-heading-1{
+    font-family: 'Roboto';
+    font-size: 120%;
+    color: black;
+    opacity: 1.2;
+    font-weight: bold;
+    margin-bottom: 15px;
+    line-height: 1.4;
+}
+.about-sub-text{
+    font-family: "Roboto";
+    font-size: 90%;
+    color: black;
+    opacity: 0.7;
+    font-weight: normal;
+    line-height: 1.4;
+}
+.about-sub-text-1{
+    font-family: "Roboto";
+    font-size: 100%;
+    color: black;
+    opacity: 0.7;
+    font-weight: normal;
+    line-height: 1.6;
+}
+
+.object-cover {
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+.rounded-xl {
+    border-radius: .75rem;
+}
+
+.img1 {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.img {
+    max-width: 100%;
+    height: auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 10px;
+}
+
+.mg{
+    margin-top: 65px;
+}
+
+.skills-head{
+    font-family: "roboto";
+    font-weight: bold;
+    font-size: 1.80rem;
+    color: maroon;
+}
+.skills-text{
+    font-family: "roboto";
+    font-size: 1.25rem;
+    color: black;
+    opacity: 0.8;
+    line-height: 1.6;
+}
+.projects-text{
+    color: black;
+    font-family: "sans-serif";
+    font-size: 1.30rem;
+    opacity: 0.7;
+    line-height: 1.6;
+}
+.projects-title{
+    color: rgb(9, 9, 9);
+    font-family: "Cambria";
+    font-size: 115%;
+    font-weight: bold;
+    opacity: 0.9;
+}
+.project-description{
+    color: black;
+    font-family: "sans-serif";
+    font-size: 95%;
+    opacity: 0.6;
+    line-height: 1.6;
+}
+.project-button{
+    color: white;
+    font-family: "roboto";
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.resume-text{
+    color: gray;
+    font-family: "sans-serif";
+    font-size: 1.15rem;
+    opacity: 0.8;
+    line-height: 1.6;
+}
+.resume-subtext{
+    font-family: "Roboto";
+    font-size: 100%;
+    color: black;
+    opacity: 0.7;
+    font-weight: 500;
+    line-height: 1.6;
+}
+.clients-main{
+    font-family: 'Times New Roman';
+    font-size: 1rem;
+    font-weight: 600;
+    opacity: 0.6;
+    color: grey;
+}
+.clients-head{
+    font-family: 'Roboto';
+    font-size: 2.5rem;
+    font-weight: bold;
+    opacity: 0.8;
+    color: black;
+    line-height: 1.4;
+}

@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <div>
+        <div>
+            <nav class="navbar navbar-expand-md navbar-light background fixed-top">
+                <a class="navbar-brand" href="#">
+                    <h1 class="brand-size">Manikanta Sanjay's Portfolio</h1>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="nav nav-tabs ml-auto"  style="border-bottom: none;">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active btn btn-transparent" id="home-tab" data-bs-toggle="tab" data-bs-target="#portfolioHome" type="button" role="tab"><a href="#portfolioHome" class="nav-text" style="text-decoration: none;">Home</a></button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link btn btn-transparent" id="profile-tab" data-bs-toggle="tab" data-bs-target="#AboutSection" type="button" role="tab"><a class="nav-text" href="#AboutSection" style="text-decoration: none;">About</a></button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link btn btn-transparent" id="skills-tab" data-bs-toggle="tab" data-bs-target="#SkillsSection" type="button" role="tab"><a class="nav-text" href="#SkillsSection" style="text-decoration: none;">My Skills</a></button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link btn btn-transparent" id="MyProjects-tab" data-bs-toggle="tab" data-bs-target="#MyProjectsSection" type="button" role="tab"><a class="nav-text" href="#MyProjectsSection" style="text-decoration: none;">My Projects</a></button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link btn btn-transparent" id="MyResume-tab" data-bs-toggle="tab" data-bs-target="#MyResumeSection" type="button" role="tab"><a class="nav-text" href="#MyResumeSection" style="text-decoration: none;">Resume</a></button>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="container mt-5 mb-3 p-0">
+            <div id="portfolioHome" class="mt-2 p-1 mb-2 tab-pane active" role="tabpanel">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-5 order-1 order-md-2">
+                            <img alt="team work" loading="lazy" height="100%" decoding="async" data-nimg="1" class="object-cover mt-3 img1" style="color:transparent" src="https://raw.githubusercontent.com/sanjay7227/My-Portfolio/main/10.jpg">   
+                        </div>
+                        <div class="col-12 col-md-7 order-2 order-md-1 d-flex align-content-center flex-wrap">
+                            <div class="text-start ml-2 mt-2">
+                                    <h1 class="home-heading">Welcome to My Portfolio</h1>
+                                    <p class="home-text pl-0 col-12 col-lg-9">
+                                        I am Manikanta Sanjay, a passionate web developer based in India. Here, you'll get a glimpse of my journey in the world of web development, where creativity meets functionality.
+                                    </p>
+                                    <a href="#AboutSection" style="color: rgb(0, 106, 255); font-size: 1rem; font-weight: bold;">About Me
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                         <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                                        </svg>
+                                    </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="AboutSection" class="p-1 mt-5 mb-3 tab-pane" role="tabpanel">
+                <div class="container p-0">
+                    <h1 class="text-center about-main d-block d-md-none">About</h1>
+                    <h1 class="text-center about-main mt-5 d-none d-md-block">About</h1>
+                    <hr style="height: 3px; background-color: #00bfff; border: none; width: 50px;">
+                    <p class="text-center mb-0 pl-1 pr-1 col-12 col-lg-6 ml-auto mr-auto" style="font-family: 'Arial Narrow'; font-size: 1.15rem; line-height: 1.6;">Hi, I’m a passionate front-end developer with a keen eye for detail and design.</p>
+                    <div class="row">
+                        <div class="col-12 col-md-4 order-1 order-md-1 d-flex flex-column align-items-center flex-wrap mt-1">
+                            <img src="https://raw.githubusercontent.com/sanjay7227/My-Portfolio/main/08(2).jpg" class="d-none d-md-block img object-cover mt-3 pr-2" style="color:transparent;">
+                            <img src="https://raw.githubusercontent.com/sanjay7227/My-Portfolio/main/08(2).jpg" class="img-fluid d-block d-md-none p-3" style="border-radius: 25px; height:100%;">
+                        </div>
+                        <div class="col-12 col-md-8 order-2 d-block d-md-none">
+                            <div class="d-flex flex-column justify-content-between ml-5 mt-1">
+                                <ul class="p-0 m-0">
+                                    <li class="about-sub-heading">Name: <span class="about-sub-text">Konka Lakshmi Manikanta Sanjay</span></li>
+                                    <li class="about-sub-heading">Birthady: <span class="about-sub-text">02 MAY 2003</span></li>
+                                    <li class="about-sub-heading">Degree: <span class="about-sub-text">B.Tech</span></li>
+                                </ul>
+                                <ul class="p-0 m-0">
+                                    <li class="about-sub-heading">City: <span class="about-sub-text">Guntur, Andhra Pradesh, India</span></li>
+                                    <li class="about-sub-heading">Linkedin: <a class="about-sub-text" href="https://www.linkedin.com/in/konkalakshmimanikantasanjay/">konkalakshmimanikantasanjay/</a></li>
+                                    <li class="about-sub-heading">Phone No: <span class="about-sub-text">+91 xxxxx xxxxx</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-8 col-12 order-2 order-md-2 d-none d-md-block p-0 mt-auto mb-auto">
+                            <div class="d-flex flex-row justify-content-around ml-2 mt-1">
+                                <ul class="p-0 mt-2">
+                                    <li class="about-sub-heading-1">Name: <span class="about-sub-text-1">Konka Lakshmi Manikanta Sanjay</span></li>
+                                    <li class="about-sub-heading-1">Birthady: <span class="about-sub-text-1">02 MAY 2003</span></li>
+                                    <li class="about-sub-heading-1">Degree: <span class="about-sub-text-1">B.Tech</span></li>
+                                </ul>
+                                <ul class="p-0 mt-2 ml-0">
+                                    <li class="about-sub-heading-1">City: <span class="about-sub-text-1">Guntur, Andhra Pradesh, India</span></li>
+                                    <li class="about-sub-heading-1">Linkedin: <a class="about-sub-text-1" href="https://www.linkedin.com/in/konkalakshmimanikantasanjay/">manikantasanjay/</a></li>
+                                    <li class="about-sub-heading-1">Phone no: <span class="about-sub-text-1">+91 xxxxx xxxxx</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="clientsSection" class="mt-5 mb-2 p-1 tab-pane" role="tabpanel">
+                <div class="container">
+                    <h1 class="about-main text-center">My Clients</h1>
+                    <hr style="height: 3px; background-color: #00bfff; border: none; width: 50px;" class="mb-0">
+                    <div class="row>">
+                        <div class="col-12 col-md-12 order-1 d-block d-lg-none">
+                            <div class="d-flex flex-column justify-content-around align-items-center pl-3 pr-3 mt-3">
+                                <img src="https://raw.githubusercontent.com/sanjay7227/My-Portfolio/main/logo-google.svg" height="80%" width="80%" class="mt-2">
+                                <img src="https://raw.githubusercontent.com/sanjay7227/My-Portfolio/main/logo-pinterest.svg"  height="80%" width="80%" class="mt-2">
+                                <img src="https://raw.githubusercontent.com/sanjay7227/My-Portfolio/main/logo-spotify.svg"  height="80%" width="80%" class="mt-2">
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-12 order-2 d-block d-lg-none">
+                            <div class="d-flex flex-column justify-content-around align-items-center pl-3 pr-3 mt-1">
+                                <img src="https://raw.githubusercontent.com/sanjay7227/My-Portfolio/main/logo-netflix.svg"  height="80%" width="80%" class="mt-2">
+                                <img src="https://raw.githubusercontent.com/sanjay7227/My-Portfolio/main/logo-amazon.svg"  height="80%" width="80%" class="mt-2"> 
+                                <img src="https://raw.githubusercontent.com/sanjay7227/My-Portfolio/main/logo-coinbase.svg"  height="80%" width="80%" class="mt-2"> 
+                            </div>
+                        </div>
+                        <div class="col-lg-12 d-none d-lg-block p-0 mb-0">
+                            <div class="d-flex flex-row justify-content-between mt-3">
+                                <img src="https://raw.githubusercontent.com/sanjay7227/My-Portfolio/main/logo-coinbase.svg" height="100" width="100" class="mt-2">
+                                <img src="https://raw.githubusercontent.com/sanjay7227/My-Portfolio/main/logo-pinterest.svg"  height="100" width="100" class="mt-2">
+                                <img src="https://raw.githubusercontent.com/sanjay7227/My-Portfolio/main/logo-pinterest.svg"  height="100" width="100" class="mt-2">
+                                <img src="https://raw.githubusercontent.com/sanjay7227/My-Portfolio/main/logo-amazon.svg"  height="100" width="100" class="mt-2">
+                                <img src="https://raw.githubusercontent.com/sanjay7227/My-Portfolio/main/logo-netflix.svg"  height="100" width="100" class="mt-2"> 
+                                <img src="https://raw.githubusercontent.com/sanjay7227/My-Portfolio/main/logo-google.svg"  height="100" width="100" class="mt-2"> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="SkillsSection" class="tab-pane mt-5 mb-3 p-1" role="tabpanel">
+                <div class="container">
+                    <h1 class="text-center about-main mt-3">My Skills</h1>
+                    <hr style="height: 3px; background-color: #00bfff; border: none; width: 50px;">
+                    <div class="row">
+                        <div class="col-12 col-lg-7">
+                            <div class="text-lg-left text-center mt-2">
+                                <h1 class="skills-head">I Am Expert In</h1>
+                                <p class="skills-text mt-3 pl-1 pr-1 mb-5 col-12 ml-auto mr-auto d-block d-lg-none">I am Expert in Frontend Web Development. I design and build websites that captivate and engage users. I'm well-versed in the industry's most popular technologies like HTML5, CSS3, JavaScript.</p>
+                                <p class="skills-text mt-3 pl-1 pr-1 mb-5 d-none d-lg-block">I am Expert in Frontend Web Development. I design and build websites that captivate and engage users. I'm well-versed in the industry's most popular frontend technologies like HTML5, CSS3, JavaScript.</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-4 d-block d-lg-none p-0">
+                            <div class="d-flex flex-row justify-content-around">
+                                    <img src="https://raw.githubusercontent.com/sanjay7227/My-Portfolio/main/HTML-logo.png" height="100" width="100">
+                                    <img src="https://raw.githubusercontent.com/sanjay7227/My-Portfolio/main/CSS-logo.png" height="100" width="100">
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-4 d-block d-lg-none p-0 mb-3">
+                            <div class="d-flex flex-wrap justify-content-around align-items-center">
+                                <div>
+                                    <img src="https://raw.githubusercontent.com/sanjay7227/My-Portfolio/main/JAVASCRIPT-logo.png" height="100" width="100">
+                                </div>
+                            </div>
+                        </div> 
+                        <div class="col-12 col-lg-5 d-none d-lg-block p-0">
+                            <div class="d-flex flex-row justify-content-around align-items-center">
+                                <div class="mt-5">
+                                    <img src="https://raw.githubusercontent.com/sanjay7227/My-Portfolio/main/HTML-logo.png" height="100" width="100">
+                                    <img src="https://raw.githubusercontent.com/sanjay7227/My-Portfolio/main/CSS-logo.png" height="100" width="100">
+                                    <img src="https://raw.githubusercontent.com/sanjay7227/My-Portfolio/main/JAVASCRIPT-logo.png" height="100" width="100">
+                                </div>
+                                    
+                            </div>
+                        </div> 
+                    </div> 
+                </div> 
+            </div>
+            <div id="MyProjectsSection" class="mt-5 mb-3 tab-pane" role="tabpanel">
+                <div class="container ml-auto mr-auto text-center mb-5">
+                    <h1 class="about-main mt-3">My Projects</h1>
+                    <hr style="height: 3px; background-color: #00bfff; border: none; width: 50px;" class="mb-2">
+                    <p class="projects-text mt-2 mb-5 ml-auto mr-auto pl-2 pr-2 col-12 col-lg-6">Whether you have a mobile app idea that needs to come to life or a website that requires a facelift, I'm here to turn your digital dreams into reality.</p>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-6 col-lg-4 mb-3">
+                            <div class="card p-2" style="border-radius: 10px;">
+                                <img src="https://raw.githubusercontent.com/sanjay7227/My-Portfolio/main/blog1.svg" class="card-img-top" alt="Project 1" style="border-radius: 10px; height:100%;">
+                                <h2 class="projects-title pl-1 text-left">E-Commerce Development</h2>
+                                <p class="project-description pr-3 pl-1 text-left">Ecommerce website offering access to the latest and greatest gadgets and accessories.</p>
+                                <button class="btn btn-dark ml-1 mb-2 col-5 project-button">see details
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                         <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 mb-3">
+                            <div class="card p-2" style="border-radius: 10px;">
+                                <img src="https://raw.githubusercontent.com/sanjay7227/My-Portfolio/main/blog2.svg" class="card-img-top" alt="Project 1" style="border-radius: 10px; height:100%;">
+                                <h2 class="projects-title pl-1 text-left">Landing page Development</h2>
+                                <p class="project-description pr-1 pl-1 text-left">Promotional landing page for a fitness website Summer Campaign Form development included.</p>
+                                <button class="btn btn-dark ml-1 mb-2 col-5 project-button">see details
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                         <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 mb-3 ml-auto mr-auto">
+                            <div class="card p-2" style="border-radius: 10px;">
+                                <img src="https://raw.githubusercontent.com/sanjay7227/My-Portfolio/main/blog3.svg" class="card-img-top" alt="Project 1" style="border-radius: 10px; height:100%;">
+                                <h2 class="projects-title pl-1 text-left">Mobile App Development</h2>
+                                <p class="project-description pr-3 pl-1 text-left">Mobile app designed to help users discover and explore local restaurants and cuisines</p>
+                                <button class="btn btn-dark ml-1 mb-2 col-5 project-button">see details
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                         <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div id="MyResumeSection" class="mt-5 mb-3 p-1 tab-pane" role="tabpanel">
+                <div class="container text-center mb- mt-3">
+                    <h1 class="about-main">My Resume</h1>
+                    <hr style="height: 3px; background-color: #00bfff; border: none; width: 50px;" class="mb-2">
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-6 mb-5 order-1 ml-auto mr-auto">
+                            <div class="text-md-left text-center">
+                                <p class="resume-text">Highly skilled and creative Web Developer with 2+ years of experience in crafting visually stunning and functionally robust websites and web applications.</p>
+                                <a class="btn btn-outline-dark col-3 col-md-4" style="font-family: 'roboto' ; font-size: 1rem; font-weight: bold; border: 1px solid gray;" href="https://raw.githubusercontent.com/sanjay7227/My-Portfolio/main/Manikanta%20Sanjay%20Resume.pdf">view
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 order-2 mr-auto">
+                            <div class="pl-1 d-flex flex-row mb-3">
+                                <img src="https://raw.githubusercontent.com/sanjay7227/My-Portfolio/main/puzzle-piece.png" height="35rem" width="35rem" class="ml-1">
+                                <p class="resume-subtext mt-1 ml-1 col-11 col-md-12 p-1">Certified Web Developer</p>
+                            </div>
+                            <div class="pl-1 d-flex flex-row mt-3">
+                                <img src="https://raw.githubusercontent.com/sanjay7227/My-Portfolio/main/click.png" height="35rem" width="35rem" class="ml-1">
+                                <p class="resume-subtext mt-1 ml-1 col-10 col-md-12 p-1">Frontend Framework Proficiency Certification</p>
+                            </div>
+                        </div>
+                    </div>  
+                </div>             
+            </div>
+            <div id="PopularClients" class="mt-5 p-1 mb-3">
+                <h3 class="clients-main text-center">Popular Clients</h3>
+                <hr style="height: 3px; background-color: #00bfff; border: none; width: 50px;" class="mb-2">
+                <div class="container mt-3">
+                    <div class="row">
+                        <div class="col-9 col-md-6 ml-auto mr-auto text-center mb-3">
+                            <h1 class="clients-head">Trusted by over 10,000+ clients</h1>
+                        </div>
+                        <div class="col-12 col-md-12 order-1 d-block d-lg-none">
+                            <div class="d-flex flex-column justify-content-around align-items-center pl-3 pr-3 mt-3">
+                                <img src="https://raw.githubusercontent.com/sanjay7227/My-Portfolio/main/logo-google.svg" height="60%" width="60%" class="mt-2" style="filter: grayscale(99%); opacity: 0.9;">
+                                <img src="https://raw.githubusercontent.com/sanjay7227/My-Portfolio/main/logo-pinterest.svg"  height="60%" width="60%" class="mt-2" style="filter: grayscale(99%); opacity: 0.9;">
+                                <img src="https://raw.githubusercontent.com/sanjay7227/My-Portfolio/main/logo-spotify.svg"  height="60%" width="60%" class="mt-2" style="filter: grayscale(99%); opacity: 0.9;">
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-12 order-2 d-block d-lg-none">
+                            <div class="d-flex flex-column justify-content-around align-items-center pl-3 pr-3 mt-1">
+                                <img src="https://raw.githubusercontent.com/sanjay7227/My-Portfolio/main/logo-netflix.svg"  height="60%" width="60%" class="mt-2" style="filter: grayscale(99%); opacity: 0.9;">
+                                <img src="https://raw.githubusercontent.com/sanjay7227/My-Portfolio/main/logo-amazon.svg"  height="60%" width="60%" class="mt-2" style="filter: grayscale(99%); opacity: 0.9;"> 
+                                <img src="https://raw.githubusercontent.com/sanjay7227/My-Portfolio/main/logo-coinbase.svg"  height="60%" width="60%" class="mt-2" style="filter: grayscale(99%); opacity: 0.9;"> 
+                            </div>
+                        </div>
+                        <div class="col-lg-12 d-none d-lg-block p-0 mb-0">
+                            <div class="d-flex flex-row justify-content-between mt-3">
+                                <img src="https://raw.githubusercontent.com/sanjay7227/My-Portfolio/main/logo-coinbase.svg" height="100" width="100" class="mt-2" style="filter: grayscale(99%); opacity: 0.9;">
+                                <img src="https://raw.githubusercontent.com/sanjay7227/My-Portfolio/main/logo-pinterest.svg"  height="100" width="100" class="mt-2" style="filter: grayscale(99%); opacity: 0.9;">
+                                <img src="https://raw.githubusercontent.com/sanjay7227/My-Portfolio/main/logo-pinterest.svg"  height="100" width="100" class="mt-2" style="filter: grayscale(99%); opacity: 0.9;">
+                                <img src="https://raw.githubusercontent.com/sanjay7227/My-Portfolio/main/logo-amazon.svg"  height="100" width="100" class="mt-2" style="filter: grayscale(99%); opacity: 0.9;">
+                                <img src="https://raw.githubusercontent.com/sanjay7227/My-Portfolio/main/logo-netflix.svg"  height="100" width="100" class="mt-2" style="filter: grayscale(99%); opacity: 0.9;"> 
+                                <img src="https://raw.githubusercontent.com/sanjay7227/My-Portfolio/main/logo-google.svg"  height="100" width="100" class="mt-2" style="filter: grayscale(99%); opacity: 0.9;"> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="ContactSection" class="mt-5 mb-3 p-1 tab-pane" role="tabpanel">
+                <div class="container">
+                    <h1 class="about-main text-center">Contact Us</h1>
+                    <hr style="height: 3px; background-color: #00bfff; border: none; width: 50px;" class="mb-2 mt-1">
+                    <div class="row">
+                        <div class="col-8 col-md-6 ml-auto mr-auto mb-5 mt-5">
+                            <form>
+                                <div class="mb-3 text-start">
+                                    <label for="name" class="form-label contact-label">Name</label>
+                                    <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                                </div>
+                                <div class="mb-3 text-start">
+                                    <label for="email" class="form-label contact-label">Email address</label>
+                                    <input type="email" class="form-control" id="email" placeholder=  "Enter your email">
+                                </div>
+                                <div class="mb-3 text-start">
+                                    <label for="message" class="form-label contact-label">Message</label>
+                                    <textarea class="form-control" id="message" rows="4" placeholder="Enter your message"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-dark contact-button">Submit</button>
+                            </form>
+                        </div>
+                        <div class="col-11 col-md-8 ml-2 mr-2 mb-5 mt-5">
+                            <div class="card bg-dark text-white d-flex text-justify p-3 ml-5 mr-5">
+                                <h1 style="font-size: 1.5rem; font-weight:bold; font-family: 'Roboto'; opacity:0.8;" class="text-center mb-5">Contact Information</h1>
+                                <p class="contact-info-text mb-3" style="font-size: 1rem; font-weight:500; font-family:'Times New Roman'; opacity:0.7; line-height:1.6;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-envelope-at-fill" viewBox="0 0 16 16">
+                                        <path d="M2 2A2 2 0 0 0 .05 3.555L8 8.414l7.95-4.859A2 2 0 0 0 14 2zm-2 9.8V4.698l5.803 3.546zm6.761-2.97-6.57 4.026A2 2 0 0 0 2 14h6.256A4.5 4.5 0 0 1 8 12.5a4.49 4.49 0 0 1 1.606-3.446l-.367-.225L8 9.586zM16 9.671V4.697l-5.803 3.546.338.208A4.5 4.5 0 0 1 12.5 8c1.414 0 2.675.652 3.5 1.671"/>
+                                        <path d="M15.834 12.244c0 1.168-.577 2.025-1.587 2.025-.503 0-1.002-.228-1.12-.648h-.043c-.118.416-.543.643-1.015.643-.77 0-1.259-.542-1.259-1.434v-.529c0-.844.481-1.4 1.26-1.4.585 0 .87.333.953.63h.03v-.568h.905v2.19c0 .272.18.42.411.42.315 0 .639-.415.639-1.39v-.118c0-1.277-.95-2.326-2.484-2.326h-.04c-1.582 0-2.64 1.067-2.64 2.724v.157c0 1.867 1.237 2.654 2.57 2.654h.045c.507 0 .935-.07 1.18-.18v.731c-.219.1-.643.175-1.237.175h-.044C10.438 16 9 14.82 9 12.646v-.214C9 10.36 10.421 9 12.485 9h.035c2.12 0 3.314 1.43 3.314 3.034zm-4.04.21v.227c0 .586.227.8.581.8.31 0 .564-.17.564-.743v-.367c0-.516-.275-.708-.572-.708-.346 0-.573.245-.573.791"/>
+                                    </svg>
+                                    konkalakshmimanikantasanjay143@gmail.com
+                                </p>
+                                <p class="contact-info-text mb-3" style="font-size: 1rem; font-weight:500; font-family:'Times New Roman'; opacity:0.7; line-height:1.6;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-outbound-fill" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877zM11 .5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V1.707l-4.146 4.147a.5.5 0 0 1-.708-.708L14.293 1H11.5a.5.5 0 0 1-.5-.5"/>
+                                    </svg>
+                                    +91 xxxxx xxxxx
+                                </p>
+                                <p class="contact-info-text" style="font-size: 0.85rem; font-weight:500; font-family:'Times New Roman'; opacity:0.7; line-height:1.6;"> 
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                                        <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+                                    </svg>
+                                    Guntur, Andhra Pradesh, India
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <hr style="height: 0.8px; background-color: gray; border: none; width: 90%;" class="mb-3">
+        <footer class="bg-dark text-white p-3 ">
+            <div class="continer d-flex flex-row justify-content-between">
+                <div class="mt-auto mb-auto ml-2">
+                    <p class="mb-0" style="font-size: 1.05rem; font-family: 'Roboto'; font-weight: 900; ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" fill="currentColor" class="bi bi-c-circle-fill" viewBox="0 0 16 16">
+                            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.146 4.992c.961 0 1.641.633 1.729 1.512h1.295v-.088c-.094-1.518-1.348-2.572-3.03-2.572-2.068 0-3.269 1.377-3.269 3.638v1.073c0 2.267 1.178 3.603 3.27 3.603 1.675 0 2.93-1.02 3.029-2.467v-.093H9.875c-.088.832-.75 1.418-1.729 1.418-1.224 0-1.927-.891-1.927-2.461v-1.06c0-1.583.715-2.503 1.927-2.503"/>
+                        </svg>
+                        2025 Manikanta Sanjay. All rights reserved.
+                    </p>
+                </div>
+                <div class="ml-auto d-none d-md-block">
+                    <a class="btn btn-otuline-dark mb-2" style="color: white; border-color: grey; font-size: 1rem; font-weight: 700;" href="#portfolioHome">Home</a>
+                    <a class="btn btn-otuline-dark mb-2" style="color: white; border-color: grey; font-size: 1rem; font-weight: 700;" href="#AboutSection">About</a>
+                    <a class="btn btn-dark mb-2" style="color: white; background-color:rgb(0, 0, 40); font-size: 0.8rem; font-weight: 700;" href="https://www.linkedin.com/in/konkalakshmimanikantasanjay/">Follow</a>
+                </div>
+                <div class="ml-3 d-block d-md-none">
+                    <a class="btn btn-otuline-dark mb-2" style="color: white; border-color: grey; font-size: 0.8rem; font-weight: 700;" href="#portfolioHome">Home</a>
+                    <a class="btn btn-otuline-dark mb-2" style="color: white; border-color: grey; font-size: 0.8rem; font-weight: 700;" href="#AboutSection">About</a>
+                    <a class="btn btn-dark mb-2" style="color: white; background-color:rgb(0, 0, 40); font-size: 0.8rem; font-weight: 700;" href="https://www.linkedin.com/in/konkalakshmimanikantasanjay/">Follow</a>
+                </div>
+            </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
+
+
+
+
+
